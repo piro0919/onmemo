@@ -1,4 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>piro0919/renovate-config"]
+  "extends": ["github>piro0919/renovate-config"],
+  "enabled": false,
+  "description": "Disabled: the toolchain no longer installs on a current Node (node-sass 5 fails to build) and the Firebase deployment is gone, so no dependency update here can be verified or shipped."
 }
